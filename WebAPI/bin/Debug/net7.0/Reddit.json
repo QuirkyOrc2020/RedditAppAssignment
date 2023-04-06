@@ -1,0 +1,313 @@
+{
+  "Users": [
+    {
+      "Id": 0,
+      "UserName": "Chris",
+      "Password": "1234",
+      "Email": "C@gmail.com",
+      "Domain": "via",
+      "Name": "Chris",
+      "Role": "Student",
+      "Age": 27,
+      "SecurityLevel": 4
+    },
+    {
+      "Id": 1,
+      "UserName": "Lukasz",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 2,
+      "UserName": "Diana",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 3,
+      "UserName": "Alex",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 4,
+      "UserName": "Andreea",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 5,
+      "UserName": "Anushri",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 6,
+      "UserName": "Adrian",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 7,
+      "UserName": "Tina",
+      "Password": "1234",
+      "Email": "T@gmail.com",
+      "Domain": "via",
+      "Name": "Tina J",
+      "Role": "Student",
+      "Age": 22,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 8,
+      "UserName": "Ola",
+      "Password": "1234",
+      "Email": "O@gmail.com",
+      "Domain": "via",
+      "Name": "Ola A",
+      "Role": "Student",
+      "Age": 22,
+      "SecurityLevel": 0
+    }
+  ],
+  "SubForums": [
+    {
+      "Id": 1,
+      "CreatedBy": {
+        "Id": 0,
+        "UserName": "Chris",
+        "Password": 1234,
+        "Email": null,
+        "Domain": null,
+        "Name": null,
+        "Role": null,
+        "Age": 0,
+        "SecurityLevel": 0
+      },
+      "Type": "dogs"
+    },
+    {
+      "Id": 2,
+      "CreatedBy": {
+        "Id": 7,
+        "UserName": "Tina",
+        "Password": "1234",
+        "Email": "T@gmail.com",
+        "Domain": "via",
+        "Name": "Tina J",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 0
+      },
+      "Type": "Fish"
+    },
+    {
+      "Id": 3,
+      "CreatedBy": {
+        "Id": 7,
+        "UserName": "Tina",
+        "Password": "1234",
+        "Email": "T@gmail.com",
+        "Domain": "via",
+        "Name": "Tina J",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 0
+      },
+      "Type": "Reptiles"
+    },
+    {
+      "Id": 4,
+      "CreatedBy": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "Type": "T-Rex"
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "BelongsTo": {
+        "Id": 4,
+        "CreatedBy": {
+          "Id": 8,
+          "UserName": "Ola",
+          "Password": "1234",
+          "Email": "O@gmail.com",
+          "Domain": "via",
+          "Name": "Ola A",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 4
+        },
+        "Type": "T-Rex"
+      },
+      "Title": "T-Rex",
+      "Body": "The T-Rex is soo cool"
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "BelongsTo": {
+        "Id": 4,
+        "CreatedBy": {
+          "Id": 8,
+          "UserName": "Ola",
+          "Password": "1234",
+          "Email": "O@gmail.com",
+          "Domain": "via",
+          "Name": "Ola A",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 4
+        },
+        "Type": "T-Rex"
+      },
+      "Title": "Nigersaurus",
+      "Body": "the Dinosaur with 1000 teeth"
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "BelongsTo": {
+        "Id": 4,
+        "CreatedBy": {
+          "Id": 8,
+          "UserName": "Ola",
+          "Password": "1234",
+          "Email": "O@gmail.com",
+          "Domain": "via",
+          "Name": "Ola A",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 4
+        },
+        "Type": "T-Rex"
+      },
+      "Title": "T-Rex",
+      "Body": "The T-Rex is sooo cool"
+    }
+  ],
+  "Comments": [
+    {
+      "Id": 1,
+      "WrittenBy": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "PostedOn": 1,
+      "Body": "This is great",
+      "ParentCommentId": 0
+    },
+    {
+      "Id": 2,
+      "WrittenBy": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "PostedOn": 2,
+      "Body": "This is awesome",
+      "ParentCommentId": 0
+    },
+    {
+      "Id": 3,
+      "WrittenBy": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "PostedOn": 2,
+      "Body": "This is amazing",
+      "ParentCommentId": 1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+using Application.DaoInterfaces;
+using Application.LogicInterfaces;
+using Domain.DTOs;
+
+
+namespace Application.Logic;
+
+public class UserLogic : IUserLogic
+{
+    private readonly IUserDao userDao;
+
+    public UserLogic(IUserDao userDao)
+    {
+        this.userDao = userDao;
+    }
+
+    public async Task<User> CreateAsync(UserCreationDto dto)
+    {
+        User? existing = await userDao.GetByUsernameAsync(dto.UserName);
+        if (existing != null)
+            throw new Exception("Username already taken!");
+
+        ValidateData(dto);
+        User toCreate = new User
+        {
+            UserName = dto.UserName,
+            Password = dto.Password,
+            Email = dto.Email,
+            Domain = dto.Domain,
+            Name = dto.Name,
+            Role = dto.Role,
+            Age = dto.Age
+        };
+        
+        User created = await userDao.CreateAsync(toCreate);
+        
+        return created;
+    }
+
+    public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
+    {
+        return userDao.GetAsync(searchParameters);
+    }
+
+    public Task<User> ValidateUser(string userName, string password)
+    {
+        throw new NotImplementedException();
+    }
+
+
+    private static void ValidateData(UserCreationDto userToCreate)
+    {
+        string userName = userToCreate.UserName;
+
+        if (userName.Length < 3)
+            throw new Exception("Username must be at least 3 characters!");
+
+        if (userName.Length > 15)
+            throw new Exception("Username must be less than 16 characters!");
+    }
+}

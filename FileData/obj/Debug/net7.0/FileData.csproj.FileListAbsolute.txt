@@ -1,0 +1,17 @@
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/bin/Debug/net7.0/FileData.deps.json
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/bin/Debug/net7.0/FileData.dll
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/bin/Debug/net7.0/FileData.pdb
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/bin/Debug/net7.0/Application.dll
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/bin/Debug/net7.0/Domain.dll
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/bin/Debug/net7.0/Application.pdb
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/bin/Debug/net7.0/Domain.pdb
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/obj/Debug/net7.0/FileData.csproj.AssemblyReference.cache
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/obj/Debug/net7.0/FileData.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/obj/Debug/net7.0/FileData.AssemblyInfoInputs.cache
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/obj/Debug/net7.0/FileData.AssemblyInfo.cs
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/obj/Debug/net7.0/FileData.csproj.CoreCompileInputs.cache
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/obj/Debug/net7.0/FileData.csproj.CopyComplete
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/obj/Debug/net7.0/FileData.dll
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/obj/Debug/net7.0/refint/FileData.dll
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/obj/Debug/net7.0/FileData.pdb
+/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/obj/Debug/net7.0/ref/FileData.dll

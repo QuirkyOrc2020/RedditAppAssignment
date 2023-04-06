@@ -1,0 +1,12 @@
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/bin/Debug/net7.0/Domain.deps.json
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/bin/Debug/net7.0/Domain.dll
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/bin/Debug/net7.0/Domain.pdb
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/obj/Debug/net7.0/Domain.dll
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/obj/Debug/net7.0/refint/Domain.dll
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/obj/Debug/net7.0/Domain.pdb
+/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/obj/Debug/net7.0/ref/Domain.dll

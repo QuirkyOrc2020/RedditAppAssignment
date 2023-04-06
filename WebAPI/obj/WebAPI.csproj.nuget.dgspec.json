@@ -1,0 +1,548 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Christopher/RiderProjects/RedditAppAssignment/WebAPI/WebAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/Christopher/RiderProjects/RedditAppAssignment/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Christopher/RiderProjects/RedditAppAssignment/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Application/Application.csproj",
+        "packagesPath": "/Users/Christopher/.nuget/packages/",
+        "outputPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Christopher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/BlazorApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/BlazorApp.csproj",
+        "projectName": "BlazorApp",
+        "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/BlazorApp.csproj",
+        "packagesPath": "/Users/Christopher/.nuget/packages/",
+        "outputPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Christopher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj"
+              },
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/HttpClients/HttpClients.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/HttpClients/HttpClients.csproj"
+              },
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/Shared/Shared.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.3, 7.0.3]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj",
+        "packagesPath": "/Users/Christopher/.nuget/packages/",
+        "outputPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Christopher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Christopher/RiderProjects/RedditAppAssignment/EfcDataAccess/EfcDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Christopher/RiderProjects/RedditAppAssignment/EfcDataAccess/EfcDataAccess.csproj",
+        "projectName": "EfcDataAccess",
+        "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/EfcDataAccess/EfcDataAccess.csproj",
+        "packagesPath": "/Users/Christopher/.nuget/packages/",
+        "outputPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/EfcDataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Christopher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/Application/Application.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Application/Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/FileData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/FileData.csproj",
+        "projectName": "FileData",
+        "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/FileData.csproj",
+        "packagesPath": "/Users/Christopher/.nuget/packages/",
+        "outputPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Christopher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/Application/Application.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Application/Application.csproj"
+              },
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Christopher/RiderProjects/RedditAppAssignment/HttpClients/HttpClients.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Christopher/RiderProjects/RedditAppAssignment/HttpClients/HttpClients.csproj",
+        "projectName": "HttpClients",
+        "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/HttpClients/HttpClients.csproj",
+        "packagesPath": "/Users/Christopher/.nuget/packages/",
+        "outputPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/HttpClients/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Christopher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Christopher/RiderProjects/RedditAppAssignment/Shared/Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Christopher/RiderProjects/RedditAppAssignment/Shared/Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Shared/Shared.csproj",
+        "packagesPath": "/Users/Christopher/.nuget/packages/",
+        "outputPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Christopher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Christopher/RiderProjects/RedditAppAssignment/WebAPI/WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Christopher/RiderProjects/RedditAppAssignment/WebAPI/WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/WebAPI/WebAPI.csproj",
+        "packagesPath": "/Users/Christopher/.nuget/packages/",
+        "outputPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/WebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Christopher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/Application/Application.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Application/Application.csproj"
+              },
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/BlazorApp.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/BlazorApp.csproj"
+              },
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Domain/Domain.csproj"
+              },
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/EfcDataAccess/EfcDataAccess.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/EfcDataAccess/EfcDataAccess.csproj"
+              },
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/FileData.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/FileData/FileData.csproj"
+              },
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/HttpClients/HttpClients.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/HttpClients/HttpClients.csproj"
+              },
+              "/Users/Christopher/RiderProjects/RedditAppAssignment/Shared/Shared.csproj": {
+                "projectPath": "/Users/Christopher/RiderProjects/RedditAppAssignment/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
