@@ -14,9 +14,5 @@ public class User
     public string Role { get; set; }
     public int Age { get; set; }
     public int SecurityLevel { get; set; }
-    [JsonIgnore]
-    public ICollection<SubForum>SubForums { get; set; }
-    public ICollection<Post> Posts { get; set; }
-    public ICollection<Comment> Comments { get; set; }
 
 }

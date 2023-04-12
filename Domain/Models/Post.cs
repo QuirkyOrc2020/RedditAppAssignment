@@ -19,5 +19,5 @@ public class Post
         BelongsTo = belongsTo;
     }
     
-    private Post(){}
+   
 }

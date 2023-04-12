@@ -69,6 +69,30 @@
       "PackagePath": "staticwebassets/icon-192.png"
     },
     {
+      "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/Login.png",
+      "PackagePath": "staticwebassets/icons/Login.png"
+    },
+    {
+      "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/Logout.png",
+      "PackagePath": "staticwebassets/icons/Logout.png"
+    },
+    {
+      "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/clear_funnel.png",
+      "PackagePath": "staticwebassets/icons/clear_funnel.png"
+    },
+    {
+      "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/edit.gif",
+      "PackagePath": "staticwebassets/icons/edit.gif"
+    },
+    {
+      "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/funnel.png",
+      "PackagePath": "staticwebassets/icons/funnel.png"
+    },
+    {
+      "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/user.png",
+      "PackagePath": "staticwebassets/icons/user.png"
+    },
+    {
       "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },

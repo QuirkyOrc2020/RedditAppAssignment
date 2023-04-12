@@ -16,5 +16,4 @@ public class Comment
         PostedOn = postedOn;
     }
     
-    private Comment(){}
 }

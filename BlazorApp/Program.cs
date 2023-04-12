@@ -21,6 +21,10 @@ builder.Services.AddScoped(
         }
 );
 builder.Services.AddScoped<IUserService, UserHttpClient>();
+builder.Services.AddScoped<ISubForumService, SubForumHttpClient>();
+builder.Services.AddScoped<IPostService, PostHttpClient>();
+builder.Services.AddScoped<ICommentService, CommentHttpClient>();
+
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthProvider>();
 AuthorizationPolicies.AddPolicies(builder.Services);
 

@@ -1,8 +1,521 @@
 {
   "Users": [
     {
-    "UserName": "Chris",
-      "Password": "1234"
+      "Id": 0,
+      "UserName": "Chris",
+      "Password": "1234",
+      "Email": "C@gmail.com",
+      "Domain": "via",
+      "Name": "Chris",
+      "Role": "Student",
+      "Age": 27,
+      "SecurityLevel": 4
+    },
+    {
+      "Id": 1,
+      "UserName": "Lukasz",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 2,
+      "UserName": "Diana",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 3,
+      "UserName": "Alex",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 4,
+      "UserName": "Andreea",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 5,
+      "UserName": "Anushri",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 6,
+      "UserName": "Adrian",
+      "Password": null,
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 7,
+      "UserName": "Tina",
+      "Password": "1234",
+      "Email": "T@gmail.com",
+      "Domain": "via",
+      "Name": "Tina J",
+      "Role": "Student",
+      "Age": 22,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 8,
+      "UserName": "Ola",
+      "Password": "1234",
+      "Email": "O@gmail.com",
+      "Domain": "via",
+      "Name": "Ola A",
+      "Role": "Student",
+      "Age": 22,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 9,
+      "UserName": "Devlin",
+      "Password": "1234",
+      "Email": "D@gmail.com",
+      "Domain": "via",
+      "Name": "Devlin",
+      "Role": "Student",
+      "Age": 24,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 10,
+      "UserName": "Dragos",
+      "Password": "1234",
+      "Email": "D@gmail.com",
+      "Domain": "via",
+      "Name": "Dragos",
+      "Role": "Student",
+      "Age": 22,
+      "SecurityLevel": 0
     }
-    ]
+  ],
+  "SubForums": [
+    {
+      "Id": 0,
+      "CreatedBy": {
+        "Id": 0,
+        "UserName": "Chris",
+        "Password": "1234",
+        "Email": null,
+        "Domain": null,
+        "Name": null,
+        "Role": null,
+        "Age": 0,
+        "SecurityLevel": 0
+      },
+      "Type": "Gaming"
+    },
+    {
+      "Id": 1,
+      "CreatedBy": {
+        "Id": 0,
+        "UserName": "Chris",
+        "Password": "1234",
+        "Email": null,
+        "Domain": null,
+        "Name": null,
+        "Role": null,
+        "Age": 0,
+        "SecurityLevel": 0
+      },
+      "Type": "Sports"
+    },
+    {
+      "Id": 2,
+      "CreatedBy": {
+        "Id": 7,
+        "UserName": "Tina",
+        "Password": "1234",
+        "Email": "T@gmail.com",
+        "Domain": "via",
+        "Name": "Tina J",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 0
+      },
+      "Type": "Crypto"
+    },
+    {
+      "Id": 3,
+      "CreatedBy": {
+        "Id": 7,
+        "UserName": "Tina",
+        "Password": "1234",
+        "Email": "T@gmail.com",
+        "Domain": "via",
+        "Name": "Tina J",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 0
+      },
+      "Type": "Animals"
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 0,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "BelongsTo": {
+        "Id": 0,
+        "CreatedBy": {
+          "Id": 8,
+          "UserName": "Ola",
+          "Password": "1234",
+          "Email": "O@gmail.com",
+          "Domain": "via",
+          "Name": "Ola A",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 4
+        },
+        "Type": "Gaming"
+      },
+      "Title": "My favourite game is Sims",
+      "Body": "The Sims is soo cool"
+    },
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "BelongsTo": {
+        "Id": 0,
+        "CreatedBy": {
+          "Id": 8,
+          "UserName": "Ola",
+          "Password": "1234",
+          "Email": "O@gmail.com",
+          "Domain": "via",
+          "Name": "Ola A",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 4
+        },
+        "Type": "Gaming"
+      },
+      "Title": "Minecraft",
+      "Body": "Minecraft is lame"
+    },
+    {
+      "Id": 0,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "BelongsTo": {
+        "Id": 1,
+        "CreatedBy": {
+          "Id": 8,
+          "UserName": "Ola",
+          "Password": "1234",
+          "Email": "O@gmail.com",
+          "Domain": "via",
+          "Name": "Ola A",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 4
+        },
+        "Type": "Sports"
+      },
+      "Title": "Football",
+      "Body": "Football is sooo cool"
+    },
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "BelongsTo": {
+        "Id": 1,
+        "CreatedBy": {
+          "Id": 3,
+          "UserName": "Alex",
+          "Password": "1234",
+          "Email": "A@gmail.com",
+          "Domain": "via",
+          "Name": "Ola A",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 4
+        },
+        "Type": "Sports"
+      },
+      "Title": "Cricket",
+      "Body": "Cricket is sooo cool"
+    },
+    {
+      "Id": 0,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "BelongsTo": {
+        "Id": 3,
+        "CreatedBy": {
+          "Id": 8,
+          "UserName": "Ola",
+          "Password": "1234",
+          "Email": "O@gmail.com",
+          "Domain": "via",
+          "Name": "Ola A",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 4
+        },
+        "Type": "Animals"
+      },
+      "Title": "Parrot",
+      "Body": "Parrots are so noisy"
+    },
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "BelongsTo": {
+        "Id": 3,
+        "CreatedBy": {
+          "Id": 8,
+          "UserName": "Ola",
+          "Password": "1234",
+          "Email": "O@gmail.com",
+          "Domain": "via",
+          "Name": "Ola A",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 4
+        },
+        "Type": "Animals"
+      },
+      "Title": "Turtles",
+      "Body": "Turtles are cute"
+    },
+    {
+      "Id": 0,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "BelongsTo": {
+        "Id": 2,
+        "CreatedBy": {
+          "Id": 8,
+          "UserName": "Ola",
+          "Password": "1234",
+          "Email": "O@gmail.com",
+          "Domain": "via",
+          "Name": "Ola A",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 4
+        },
+        "Type": "Crypto"
+      },
+      "Title": "I will be rich!!",
+      "Body": "Cha-Ching"
+    },
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "BelongsTo": {
+        "Id": 2,
+        "CreatedBy": {
+          "Id": 8,
+          "UserName": "Ola",
+          "Password": "1234",
+          "Email": "O@gmail.com",
+          "Domain": "via",
+          "Name": "Ola A",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 4
+        },
+        "Type": "Crypto"
+      },
+      "Title": "Crypto is crashing",
+      "Body": "F*CK!!!!!"
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Diana",
+        "Password": null,
+        "Email": null,
+        "Domain": null,
+        "Name": null,
+        "Role": null,
+        "Age": 0,
+        "SecurityLevel": 0
+      },
+      "BelongsTo": {
+        "Id": 3,
+        "CreatedBy": {
+          "Id": 7,
+          "UserName": "Tina",
+          "Password": "1234",
+          "Email": "T@gmail.com",
+          "Domain": "via",
+          "Name": "Tina J",
+          "Role": "Student",
+          "Age": 22,
+          "SecurityLevel": 0
+        },
+        "Type": "Animals"
+      },
+      "Title": "dogs",
+      "Body": "dogs are cool"
+    }
+  ],
+  "Comments": [
+    {
+      "Id": 0,
+      "WrittenBy": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "PostedOn": 0,
+      "Body": "This is great",
+      "ParentCommentId": 0
+    },
+    {
+      "Id": 1,
+      "WrittenBy": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "PostedOn": 0,
+      "Body": "This is awesome",
+      "ParentCommentId": 0
+    },
+    {
+      "Id": 2,
+      "WrittenBy": {
+        "Id": 8,
+        "UserName": "Ola",
+        "Password": "1234",
+        "Email": "O@gmail.com",
+        "Domain": "via",
+        "Name": "Ola A",
+        "Role": "Student",
+        "Age": 22,
+        "SecurityLevel": 4
+      },
+      "PostedOn": 0,
+      "Body": "This is amazing",
+      "ParentCommentId": 1
+    }
+  ]
 }

@@ -2,9 +2,9 @@ using System.Text;
 using Application.DaoInterfaces;
 using Application.Logic;
 using Application.LogicInterfaces;
-using EfcDataAccess;
-using EfcDataAccess.DAOs;
+
 using FileData;
+using FileData.DAOs;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Shared.Auth;
@@ -20,16 +20,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<FileContext>();
-builder.Services.AddScoped<IUserDao, UserEfcDao>();
+builder.Services.AddScoped<IUserDao, UserFileDao>();
 builder.Services.AddScoped<IUserLogic, UserLogic>();
 builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<ISubForumDao, SubForumEfcDao>();
+builder.Services.AddScoped<ISubForumDao, SubForumFileDao>();
 builder.Services.AddScoped<ISubForumLogic, SubForumLogic>();
-builder.Services.AddScoped<IPostDao, PostEfcDao>();
+builder.Services.AddScoped<IPostDao, PostFileDao>();
 builder.Services.AddScoped<IPostLogic, PostLogic>();
-builder.Services.AddScoped<ICommentDao, CommentEfcDao>();
+builder.Services.AddScoped<ICommentDao, CommentFileDao>();
 builder.Services.AddScoped<ICommentLogic, CommentLogic>();
-builder.Services.AddDbContext<UserContext>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {

@@ -1,0 +1,55 @@
+@page "/GamingSubForum"
+@using Domain.Models
+@using HttpClients.ClientInterfaces
+@inject IPostService PostService
+<h3 style="text-align: center">Gaming</h3>
+
+
+@if (!string.IsNullOrEmpty(msg))
+{
+    <div>
+        <span>@msg</span>
+    </div>
+}
+
+@if (posts == null)
+{
+    <span>Loading..</span>
+}
+else if (!posts.Any())
+{
+    <span>No users to be found</span>
+}
+else
+{
+    <div class="users-container">
+        @foreach (Post post in posts)
+        {
+            <div class="card" style="width:600px">
+                <img class="card-img-top" src="icons/user.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">@post.Title</h4>
+                    <h4 class="card-title">@post.Body</h4>
+                </div>
+            </div>
+        }
+    </div>
+}
+@code {
+    private IEnumerable<Post>? posts;
+    private string msg = "";
+    
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            posts = await PostService.GetAsync("Gaming");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}

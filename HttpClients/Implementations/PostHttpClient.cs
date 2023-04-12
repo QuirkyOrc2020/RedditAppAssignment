@@ -51,17 +51,26 @@ public class PostHttpClient : IPostService
 
     public async Task CreateAsync(string title, string body, int selectedSubFormId, int ownerId)
     {
-        PostCreationDto postCreationDto = new(title, body, selectedSubFormId, ownerId);
-
-        string subFormAsJson = JsonSerializer.Serialize(postCreationDto);
-        StringContent content = new(subFormAsJson, Encoding.UTF8, "application/json");
-
-        HttpResponseMessage response = await client.PostAsync("https://localhost:7141/Posts", content);
-        string responseContent = await response.Content.ReadAsStringAsync();
         
-        if (!response.IsSuccessStatusCode)
-        {
-            throw new Exception(responseContent);
-        }
+        Console.WriteLine("This is not working CreateAsync Method HTTP CLIent");
+        throw new NotImplementedException();
+        /* PostCreationDto postCreationDto = new(title, body, selectedSubFormId, ownerId);
+ 
+         string subFormAsJson = JsonSerializer.Serialize(postCreationDto);
+         StringContent content = new(subFormAsJson, Encoding.UTF8, "application/json");
+ 
+         HttpResponseMessage response = await client.PostAsync("https://localhost:7141/Posts", content);
+         string responseContent = await response.Content.ReadAsStringAsync();
+         
+         if (!response.IsSuccessStatusCode)
+         {
+             throw new Exception(responseContent);
+         }
+         */
+    }
+
+    public Task<IEnumerable<Post>?> GetByIdAsync()
+    {
+        throw new NotImplementedException();
     }
 }

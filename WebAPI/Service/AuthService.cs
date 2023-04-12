@@ -21,14 +21,58 @@ public class AuthService: IAuthService
         },
         new User
         {
-            Age = 34,
-            Email = "jakob@gmail.com",
-            Domain = "gmail",
-            Name = "Jakob Rasmussen",
-            Password = "password",
+            Age = 22,
+            Email = "T@gmail.com",
+            Domain = "via",
+            Name = "Tina",
+            Password = "1234",
             Role = "Student",
-            UserName = "jknr",
-            SecurityLevel = 2
+            UserName = "Tina",
+            SecurityLevel = 4
+        },
+        new User
+        {
+        Age = 22,
+        Email = "A@gmail.com",
+        Domain = "via",
+        Name = "ALex",
+        Password = "1234",
+        Role = "Student",
+        UserName = "Alex",
+        SecurityLevel = 4
+    },
+        new User
+        {
+            Age = 23,
+            Email = "L@gmail.com",
+            Domain = "via",
+            Name = "Lukasz",
+            Password = "1234",
+            Role = "Student",
+            UserName = "Lukasz",
+            SecurityLevel = 4
+        },
+        new User
+        {
+            Age = 27,
+            Email = "A@gmail.com",
+            Domain = "via",
+            Name = "Adrian",
+            Password = "1234",
+            Role = "Student",
+            UserName = "Adrian",
+            SecurityLevel = 4
+        },
+        new User
+        {
+            Age = 21,
+            Email = "G@gmail.com",
+            Domain = "via",
+            Name = "Gabi",
+            Password = "1234",
+            Role = "Student",
+            UserName = "Gabi",
+            SecurityLevel = 4
         }
     };
 

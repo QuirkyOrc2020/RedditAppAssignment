@@ -18,7 +18,7 @@ public class SubFormsController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<SubForum>> CreateAsync(SubForumCreationDto subForumCreationDto)
+    public async Task<ActionResult<SubForum>> CreateAsync([FromBody]SubForumCreationDto subForumCreationDto)
     {
         try
         {

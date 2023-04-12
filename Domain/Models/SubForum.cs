@@ -14,6 +14,6 @@ public class SubForum
         Type = type;
     }
     
-    private SubForum(){}
+   
     
 }
