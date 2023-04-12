@@ -35,7 +35,7 @@ public class AuthService: IAuthService
         Age = 22,
         Email = "A@gmail.com",
         Domain = "via",
-        Name = "ALex",
+        Name = "Alex",
         Password = "1234",
         Role = "Student",
         UserName = "Alex",

@@ -8,38 +8,32 @@
 @using HttpClients.ClientInterfaces
 @using System.Security.Claims
 
-<div class="card" style="width:600px">
-    <div class="card-body">
-        <h4 class="card-title">Create Post</h4>
-        <div class="space-y-2">
-            <div class="flex items-start flex flex-col">
-                <label class="text-slate-800 text-left w-full">Title:</label>
-                <input class="rounded-md bg-slate-100 px-2 py-1 w-full" type="text" @bind="title"/>
-            </div>
-            <div class="flex items-start flex flex-col">
-                <label class="text-slate-800 text-left w-full">Body:</label>
-                <textarea class="rounded-md bg-slate-100 px-2 py-1 w-full h-64 resize-none"  @bind="body"></textarea>
-            </div>
-            <div class="flex items-start flex flex-col">
-                <label class="text-slate-800 text-left w-full">Assignee sub forum:</label>
-                <select @bind="selectedSubForumId">
-                    @if (subForums != null)
+<div class="card">
+    <h3>Create Post</h3>
+    <div class="form-group field">
+        <label>Title:</label>
+        <input type="text" @bind="title" @bind:event="oninput"/>
+        <label>Body:</label>
+        <input type="text" @bind="body" @bind:event="oninput"/>
+        <div class="flex items-start flex flex-col">
+            <label class="text-slate-800 text-left w-full">Select Sub Forum:</label>
+            <select @bind="selectedSubForumId">
+                @if (subForums != null)
+                {
+                    @foreach (SubForum subForum in subForums)
                     {
-                        @foreach (SubForum subForum in subForums)
-                        {
-                            <option value="@subForum.Id">@subForum.Type</option>
-                        }
+                        <option value="@subForum.Id">@subForum.Type</option>
                     }
-                </select>
-            </div>
+                }
+            </select>
         </div>
     </div>
     <div class="p-4 bg-slate-200 rounded-xl space-y-4 w-96">
-      
-         <button class="CreatePostBtn" @onclick="CreatePostAsync">Create Post</button>
-      </div>
+          
+            <button class="CreatePostBtn" @onclick="CreatePostAsync">Create Post</button>
+            <label>@errorLabel</label>
+          </div>
 </div>
-    
 
 
 

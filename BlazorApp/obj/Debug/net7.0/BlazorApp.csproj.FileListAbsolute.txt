@@ -856,3 +856,9 @@
 /Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/obj/Debug/net7.0/refint/BlazorApp.dll
 /Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/obj/Debug/net7.0/BlazorApp.pdb
 /Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/obj/Debug/net7.0/ref/BlazorApp.dll
+/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/obj/Debug/net7.0/scopedcss/Pages/Index.razor.rz.scp.css
+/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/obj/Debug/net7.0/scopedcss/Pages/AnimalsSubForum.razor.rz.scp.css
+/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/obj/Debug/net7.0/scopedcss/Pages/CreatePost.razor.rz.scp.css
+/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/obj/Debug/net7.0/scopedcss/Pages/CryptoSubForum.razor.rz.scp.css
+/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/obj/Debug/net7.0/scopedcss/Pages/GamingSubForum.razor.rz.scp.css
+/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/obj/Debug/net7.0/scopedcss/Pages/SportsSubForum.razor.rz.scp.css

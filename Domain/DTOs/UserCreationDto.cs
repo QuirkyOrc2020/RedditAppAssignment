@@ -10,8 +10,10 @@ public class UserCreationDto
     public string Name { get; set; }
     public string Role { get; set; }
     public int Age { get; set; }
+    
+    public int SecurityLevel { get; set; }
 
-    public UserCreationDto(string userName, string password, string domain, string email, string name, string role, int age)
+    public UserCreationDto(string userName, string password, string domain, string email, string name, string role, int age, int securityLevel)
     {
         UserName = userName;
         Password = password;
@@ -20,5 +22,6 @@ public class UserCreationDto
         Name = name;
         Role = role;
         Age = age;
+        SecurityLevel = 4;
     }
 }

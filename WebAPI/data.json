@@ -120,6 +120,17 @@
       "Role": "Student",
       "Age": 22,
       "SecurityLevel": 0
+    },
+    {
+      "Id": 11,
+      "UserName": "John",
+      "Password": "1234",
+      "Email": "John@gmail.com",
+      "Domain": "via",
+      "Name": "John Smith",
+      "Role": "Student",
+      "Age": 20,
+      "SecurityLevel": 4
     }
   ],
   "SubForums": [
@@ -193,7 +204,7 @@
         "Password": "1234",
         "Email": "O@gmail.com",
         "Domain": "via",
-        "Name": "Ola A",
+        "Name": "Ola",
         "Role": "Student",
         "Age": 22,
         "SecurityLevel": 4
@@ -206,7 +217,7 @@
           "Password": "1234",
           "Email": "O@gmail.com",
           "Domain": "via",
-          "Name": "Ola A",
+          "Name": "Ola",
           "Role": "Student",
           "Age": 22,
           "SecurityLevel": 4
@@ -214,7 +225,8 @@
         "Type": "Gaming"
       },
       "Title": "My favourite game is Sims",
-      "Body": "The Sims is soo cool"
+      "Body": "The Sims game: A virtual world where players create and control Sims, customize their lives, and engage in endless activities. A beloved and iconic title with a dedicated community of players."
+      
     },
     {
       "Id": 1,
@@ -224,7 +236,7 @@
         "Password": "1234",
         "Email": "O@gmail.com",
         "Domain": "via",
-        "Name": "Ola A",
+        "Name": "Ola",
         "Role": "Student",
         "Age": 22,
         "SecurityLevel": 4
@@ -237,7 +249,7 @@
           "Password": "1234",
           "Email": "O@gmail.com",
           "Domain": "via",
-          "Name": "Ola A",
+          "Name": "Ola",
           "Role": "Student",
           "Age": 22,
           "SecurityLevel": 4
@@ -245,7 +257,7 @@
         "Type": "Gaming"
       },
       "Title": "Minecraft",
-      "Body": "Minecraft is lame"
+      "Body": "Minecraft is a sandbox video game that offers boundless creativity and exploration. Players can build, mine, craft, and survive in blocky worlds, creating their own adventures, structures, and communities. Endless possibilities for creativity and imagination."
     },
     {
       "Id": 0,
@@ -255,7 +267,7 @@
         "Password": "1234",
         "Email": "O@gmail.com",
         "Domain": "via",
-        "Name": "Ola A",
+        "Name": "Ola",
         "Role": "Student",
         "Age": 22,
         "SecurityLevel": 4
@@ -268,7 +280,7 @@
           "Password": "1234",
           "Email": "O@gmail.com",
           "Domain": "via",
-          "Name": "Ola A",
+          "Name": "Ola",
           "Role": "Student",
           "Age": 22,
           "SecurityLevel": 4
@@ -276,7 +288,7 @@
         "Type": "Sports"
       },
       "Title": "Football",
-      "Body": "Football is sooo cool"
+      "Body": "Football, also known as soccer in some regions, is a globally popular sport. Played by millions, it combines skill, teamwork, competition, and passion. Thrilling matches, unforgettable moments, and a sense of community unite fans worldwide."
     },
     {
       "Id": 1,
@@ -286,7 +298,7 @@
         "Password": "1234",
         "Email": "O@gmail.com",
         "Domain": "via",
-        "Name": "Ola A",
+        "Name": "Ola",
         "Role": "Student",
         "Age": 22,
         "SecurityLevel": 4
@@ -299,7 +311,7 @@
           "Password": "1234",
           "Email": "A@gmail.com",
           "Domain": "via",
-          "Name": "Ola A",
+          "Name": "Ola",
           "Role": "Student",
           "Age": 22,
           "SecurityLevel": 4
@@ -307,7 +319,7 @@
         "Type": "Sports"
       },
       "Title": "Cricket",
-      "Body": "Cricket is sooo cool"
+      "Body": "Cricket is a bat-and-ball sport known for its rich history, strategic gameplay, and fanatical following. With thrilling matches, iconic players, and a unique blend of athleticism and strategy, it's a beloved sport globally."
     },
     {
       "Id": 0,
@@ -317,7 +329,7 @@
         "Password": "1234",
         "Email": "O@gmail.com",
         "Domain": "via",
-        "Name": "Ola A",
+        "Name": "Ola",
         "Role": "Student",
         "Age": 22,
         "SecurityLevel": 4
@@ -330,7 +342,7 @@
           "Password": "1234",
           "Email": "O@gmail.com",
           "Domain": "via",
-          "Name": "Ola A",
+          "Name": "Ola",
           "Role": "Student",
           "Age": 22,
           "SecurityLevel": 4
@@ -338,7 +350,7 @@
         "Type": "Animals"
       },
       "Title": "Parrot",
-      "Body": "Parrots are so noisy"
+      "Body": "Noisy parrots are colorful and charismatic birds known for their loud vocalizations. Their squawks, screeches, and mimicry abilities can be both entertaining and ear-piercing, adding a lively and vibrant atmosphere to their surroundings."
     },
     {
       "Id": 1,
@@ -348,7 +360,7 @@
         "Password": "1234",
         "Email": "O@gmail.com",
         "Domain": "via",
-        "Name": "Ola A",
+        "Name": "Ola",
         "Role": "Student",
         "Age": 22,
         "SecurityLevel": 4
@@ -361,7 +373,7 @@
           "Password": "1234",
           "Email": "O@gmail.com",
           "Domain": "via",
-          "Name": "Ola A",
+          "Name": "Ola",
           "Role": "Student",
           "Age": 22,
           "SecurityLevel": 4
@@ -369,7 +381,7 @@
         "Type": "Animals"
       },
       "Title": "Turtles",
-      "Body": "Turtles are cute"
+      "Body": "Turtles are fascinating reptiles known for their distinctive shells, slow pace, and longevity. Found in various habitats, they come in diverse species, sizes, and colors. They symbolize wisdom, resilience, and a peaceful existence in nature."
     },
     {
       "Id": 0,
@@ -379,7 +391,7 @@
         "Password": "1234",
         "Email": "O@gmail.com",
         "Domain": "via",
-        "Name": "Ola A",
+        "Name": "Ola",
         "Role": "Student",
         "Age": 22,
         "SecurityLevel": 4
@@ -392,7 +404,7 @@
           "Password": "1234",
           "Email": "O@gmail.com",
           "Domain": "via",
-          "Name": "Ola A",
+          "Name": "Ola",
           "Role": "Student",
           "Age": 22,
           "SecurityLevel": 4
@@ -400,7 +412,7 @@
         "Type": "Crypto"
       },
       "Title": "I will be rich!!",
-      "Body": "Cha-Ching"
+      "Body": "Getting rich often involves hard work, strategic financial planning, risk-taking, and opportunity seizing. It can lead to financial independence, increased opportunities, and a comfortable lifestyle. However, it also requires careful management, responsibility, and a mindful approach to wealth."
     },
     {
       "Id": 1,
@@ -410,7 +422,7 @@
         "Password": "1234",
         "Email": "O@gmail.com",
         "Domain": "via",
-        "Name": "Ola A",
+        "Name": "Ola",
         "Role": "Student",
         "Age": 22,
         "SecurityLevel": 4
@@ -423,7 +435,7 @@
           "Password": "1234",
           "Email": "O@gmail.com",
           "Domain": "via",
-          "Name": "Ola A",
+          "Name": "Ola",
           "Role": "Student",
           "Age": 22,
           "SecurityLevel": 4
@@ -431,38 +443,7 @@
         "Type": "Crypto"
       },
       "Title": "Crypto is crashing",
-      "Body": "F*CK!!!!!"
-    },
-    {
-      "Id": 2,
-      "Owner": {
-        "Id": 2,
-        "UserName": "Diana",
-        "Password": null,
-        "Email": null,
-        "Domain": null,
-        "Name": null,
-        "Role": null,
-        "Age": 0,
-        "SecurityLevel": 0
-      },
-      "BelongsTo": {
-        "Id": 3,
-        "CreatedBy": {
-          "Id": 7,
-          "UserName": "Tina",
-          "Password": "1234",
-          "Email": "T@gmail.com",
-          "Domain": "via",
-          "Name": "Tina J",
-          "Role": "Student",
-          "Age": 22,
-          "SecurityLevel": 0
-        },
-        "Type": "Animals"
-      },
-      "Title": "dogs",
-      "Body": "dogs are cool"
+      "Body": "Crypto decline refers to the decrease in value or popularity of cryptocurrency assets. Market volatility, regulatory changes, investor sentiment, and technological challenges can impact crypto prices, leading to losses, uncertainty, and cautious investor sentiment. Market cycles and risks are inherent in crypto investments."
     }
   ],
   "Comments": [
@@ -474,12 +455,12 @@
         "Password": "1234",
         "Email": "O@gmail.com",
         "Domain": "via",
-        "Name": "Ola A",
+        "Name": "Ola",
         "Role": "Student",
         "Age": 22,
         "SecurityLevel": 4
       },
-      "PostedOn": 0,
+      "PostedOn": 2,
       "Body": "This is great",
       "ParentCommentId": 0
     },
@@ -491,7 +472,7 @@
         "Password": "1234",
         "Email": "O@gmail.com",
         "Domain": "via",
-        "Name": "Ola A",
+        "Name": "Ola",
         "Role": "Student",
         "Age": 22,
         "SecurityLevel": 4
@@ -508,12 +489,12 @@
         "Password": "1234",
         "Email": "O@gmail.com",
         "Domain": "via",
-        "Name": "Ola A",
+        "Name": "Ola",
         "Role": "Student",
         "Age": 22,
         "SecurityLevel": 4
       },
-      "PostedOn": 0,
+      "PostedOn": 1,
       "Body": "This is amazing",
       "ParentCommentId": 1
     }

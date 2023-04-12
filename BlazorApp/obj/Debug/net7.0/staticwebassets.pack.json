@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets/icon-192.png"
     },
     {
+      "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/Game.png",
+      "PackagePath": "staticwebassets/icons/Game.png"
+    },
+    {
       "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/Login.png",
       "PackagePath": "staticwebassets/icons/Login.png"
     },
@@ -77,8 +81,20 @@
       "PackagePath": "staticwebassets/icons/Logout.png"
     },
     {
+      "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/Reddit.png",
+      "PackagePath": "staticwebassets/icons/Reddit.png"
+    },
+    {
+      "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/animals.jpeg",
+      "PackagePath": "staticwebassets/icons/animals.jpeg"
+    },
+    {
       "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/clear_funnel.png",
       "PackagePath": "staticwebassets/icons/clear_funnel.png"
+    },
+    {
+      "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/crypto.jpeg",
+      "PackagePath": "staticwebassets/icons/crypto.jpeg"
     },
     {
       "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/edit.gif",
@@ -87,6 +103,10 @@
     {
       "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/funnel.png",
       "PackagePath": "staticwebassets/icons/funnel.png"
+    },
+    {
+      "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/sports.jpeg",
+      "PackagePath": "staticwebassets/icons/sports.jpeg"
     },
     {
       "Id": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/user.png",

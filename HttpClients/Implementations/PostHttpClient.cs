@@ -51,10 +51,7 @@ public class PostHttpClient : IPostService
 
     public async Task CreateAsync(string title, string body, int selectedSubFormId, int ownerId)
     {
-        
-        Console.WriteLine("This is not working CreateAsync Method HTTP CLIent");
-        throw new NotImplementedException();
-        /* PostCreationDto postCreationDto = new(title, body, selectedSubFormId, ownerId);
+        PostCreationDto postCreationDto = new(title, body, selectedSubFormId, ownerId);
  
          string subFormAsJson = JsonSerializer.Serialize(postCreationDto);
          StringContent content = new(subFormAsJson, Encoding.UTF8, "application/json");
@@ -66,7 +63,7 @@ public class PostHttpClient : IPostService
          {
              throw new Exception(responseContent);
          }
-         */
+         
     }
 
     public Task<IEnumerable<Post>?> GetByIdAsync()

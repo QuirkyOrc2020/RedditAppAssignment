@@ -1,7 +1,10 @@
 @page "/SportsSubForum"
 @using HttpClients.ClientInterfaces
+@using Domain.Models
 @inject IPostService PostService
-<h3>SportsSubForum</h3>
+@inject ICommentService CommentService
+<h3 style="text-align: center">Sports</h3>
+
 
 
 
@@ -23,21 +26,34 @@ else if (!posts.Any())
 }
 else
 {
-    <div class="users-container">
+    <div class="users-container ">
         @foreach (Post post in posts)
         {
-            <div class="card" style="width:600px">
-                <img class="card-img-top" src="icons/user.png" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">@post.Title</h4>
-                    <h4 class="card-title">@post.Body</h4>
+            <div class="card p-5 my-5 border" style="width:600px">
+                <h5>@post.Owner.Name</h5>
+                <h4 class="card-title" style="text-align: center">@post.Title</h4>
+                <img class="card-img-top" src="icons/sports.jpeg" alt="Card image">
+                <div class="card-body p-5 my-2 border" style="text-align: center">
+                    <h5 class="card-title">@post.Body</h5>
                 </div>
+                <div>
+                    @foreach (Comment comment in comments[post.Id])
+                    {
+                        <h4 class="card-Comment">@comment.Body.ToString()</h4>
+                    }
+                </div>
+
             </div>
+            
         }
+        
     </div>
+    
 }
 @code {
     private IEnumerable<Post>? posts;
+    private IEnumerable<User> users;
+    private Dictionary<int, IEnumerable<Comment>> comments = new Dictionary<int, IEnumerable<Comment>>();
     private string msg = "";
     
     protected override async Task OnInitializedAsync()
@@ -46,6 +62,15 @@ else
         try
         {
             posts = await PostService.GetAsync("Sports");
+            foreach (Post post in posts)
+            {
+                IEnumerable<Comment> returnedComments = await CommentService.GetAllCommentsFromAPostAsync(post.Id);
+                if (returnedComments == null)
+                {
+                    returnedComments = new List<Comment>();
+                }
+                comments.Add(post.Id,returnedComments);
+            }
         }
         catch (Exception e)
         {
@@ -53,4 +78,5 @@ else
             msg = e.Message;
         }
     }
+
 }

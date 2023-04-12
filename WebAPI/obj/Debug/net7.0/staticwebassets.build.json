@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PFhyeklRtd/uQF/aLJGxO1gfMd8I3INzNoWLgAX9OyQ=",
+  "Hash": "HF7fbbU7DmAgQTK2uYq+gJNUBvooRGXFMzmNDhFpv4E=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -7373,6 +7373,23 @@
       "OriginalItemSpec": "wwwroot/icon-192.png"
     },
     {
+      "Identity": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/animals.jpeg",
+      "SourceId": "BlazorApp",
+      "SourceType": "Project",
+      "ContentRoot": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "icons/animals.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/animals.jpeg"
+    },
+    {
       "Identity": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/clear_funnel.png",
       "SourceId": "BlazorApp",
       "SourceType": "Project",
@@ -7388,6 +7405,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/icons/clear_funnel.png"
+    },
+    {
+      "Identity": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/crypto.jpeg",
+      "SourceId": "BlazorApp",
+      "SourceType": "Project",
+      "ContentRoot": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "icons/crypto.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/crypto.jpeg"
     },
     {
       "Identity": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/edit.gif",
@@ -7424,6 +7458,23 @@
       "OriginalItemSpec": "wwwroot/icons/funnel.png"
     },
     {
+      "Identity": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/Game.png",
+      "SourceId": "BlazorApp",
+      "SourceType": "Project",
+      "ContentRoot": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "icons/Game.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/Game.png"
+    },
+    {
       "Identity": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/Login.png",
       "SourceId": "BlazorApp",
       "SourceType": "Project",
@@ -7456,6 +7507,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/icons/Logout.png"
+    },
+    {
+      "Identity": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/Reddit.png",
+      "SourceId": "BlazorApp",
+      "SourceType": "Project",
+      "ContentRoot": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "icons/Reddit.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/Reddit.png"
+    },
+    {
+      "Identity": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/sports.jpeg",
+      "SourceId": "BlazorApp",
+      "SourceType": "Project",
+      "ContentRoot": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "icons/sports.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/sports.jpeg"
     },
     {
       "Identity": "/Users/Christopher/RiderProjects/RedditAppAssignment/BlazorApp/wwwroot/icons/user.png",
