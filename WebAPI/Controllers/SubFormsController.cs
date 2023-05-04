@@ -1,4 +1,5 @@
-﻿using Application.LogicInterfaces;
+﻿using Application.DaoInterfaces;
+using Application.LogicInterfaces;
 
 using Domain.DTOs;
 using Domain.Models;
@@ -11,10 +12,12 @@ namespace WebAPI.Controllers;
 public class SubFormsController : ControllerBase
 {
     private readonly ISubForumLogic subForumLogic;
+    private readonly ISubForumDao SubForumDao;
 
-    public SubFormsController(ISubForumLogic subForumLogic)
+    public SubFormsController(ISubForumLogic subForumLogic, ISubForumDao dao)
     {
         this.subForumLogic = subForumLogic;
+        this.SubForumDao = dao;
     }
 
     [HttpPost]
@@ -33,11 +36,11 @@ public class SubFormsController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<SubForum>>> GetAsync()
+    public async Task<ActionResult<SubForum>> GetByIdAsync([FromRoute] int id)
     {
         try
         {
-            IEnumerable<SubForum> subForums = await subForumLogic.GetAsync();
+         SubForum subForums = await SubForumDao.GetByIdAsync(id);
             return Ok(subForums);
         }
         catch (Exception e)

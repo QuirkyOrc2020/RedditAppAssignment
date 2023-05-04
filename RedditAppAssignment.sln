@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClients", "HttpClients\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{A732D164-34FB-43A6-90D9-5DA709796CFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCDataAccess", "EFCDataAccess\EFCDataAccess.csproj", "{DA2D21DB-4A71-4C90-9313-41E092ADCDC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{A732D164-34FB-43A6-90D9-5DA709796CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A732D164-34FB-43A6-90D9-5DA709796CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A732D164-34FB-43A6-90D9-5DA709796CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2D21DB-4A71-4C90-9313-41E092ADCDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2D21DB-4A71-4C90-9313-41E092ADCDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2D21DB-4A71-4C90-9313-41E092ADCDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2D21DB-4A71-4C90-9313-41E092ADCDC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

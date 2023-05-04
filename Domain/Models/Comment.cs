@@ -3,10 +3,10 @@
 public class Comment
 {
     public int Id { get; set; }
-    public User WrittenBy { get; }
-    public int PostedOn { get; }
+    public User WrittenBy { get; set; }
+    public int PostedOn { get; set; }
     public string Body { get; set; }
-    public int? ParentCommentId { get; }
+    public int? ParentCommentId { get; set; }
 
     public Comment(User writtenBy, int postedOn, string body, int? parentCommentId)
     {
@@ -15,5 +15,6 @@ public class Comment
         ParentCommentId = parentCommentId;
         PostedOn = postedOn;
     }
-    
+
+    private Comment() { }
 }

@@ -16,6 +16,7 @@
       <ProjectReference Include="..\Application\Application.csproj" />
       <ProjectReference Include="..\BlazorApp\BlazorApp.csproj" />
       <ProjectReference Include="..\Domain\Domain.csproj" />
+      <ProjectReference Include="..\EFCDataAccess\EFCDataAccess.csproj" />
       <ProjectReference Include="..\FileData\FileData.csproj" />
       <ProjectReference Include="..\HttpClients\HttpClients.csproj" />
       <ProjectReference Include="..\Shared\Shared.csproj" />

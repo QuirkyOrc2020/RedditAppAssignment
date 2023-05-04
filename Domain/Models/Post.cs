@@ -6,8 +6,8 @@ using Domain.Models;
 public class Post
 {
     public int Id { get; set; }
-    public User Owner { get; }
-    public SubForum BelongsTo { get; }
+    public User Owner { get; set; }
+    public SubForum BelongsTo { get; set; }
     public string Title { get; set; }
     public string Body { get; set; }
 
@@ -19,5 +19,5 @@ public class Post
         BelongsTo = belongsTo;
     }
     
-   
+   private Post(){}
 }

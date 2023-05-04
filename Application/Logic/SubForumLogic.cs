@@ -52,13 +52,14 @@ public class SubForumLogic : ISubForumLogic
     {
         SubForum? exists = await subForumDao.GetByIdAsync(subForumUpdateDto.Id);
         if (exists == null)
-            throw new Exception($"Sub forum with type {subForumUpdateDto.Id} does not exist");
+            throw new Exception($"SubForum with type {subForumUpdateDto.Id} does not exist");
 
         SubForum updated = new(exists.CreatedBy, subForumUpdateDto.Type)
         {
             Id = exists.Id
         };
 
+        Console.WriteLine("" + exists.CreatedBy, exists.Id, subForumUpdateDto.Type);
         await subForumDao.UpdateAsync(updated);
     }
 }
